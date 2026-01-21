@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skill Up Job Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Skill Up Job Finder Section -->
+<section class="job-section">
+  <div class="job-container">
+
+    <!-- Left Content -->
+    <div class="job-content">
+
+      <span class="badge">Career suggestions • Skill-based</span>
+
+      <h1>Find job roles that match your skills — instantly</h1>
+
+      <p class="description">
+        Discover job opportunities tailored to your skills. Search by keyword or explore popular skill categories designed for students and beginners.
+      </p>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="text" placeholder="Try: coding, design, marketing">
+        <button>Find Careers</button>
+      </div>
+
+      <!-- Result Preview -->
+      <div class="result">
+        <strong>Popular roles:</strong>
+        <p>Software Developer, UI/UX Designer, Digital Marketer</p>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills">
+        <article class="skill-card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Coding">
+          <h3>Coding</h3>
+          <p>Software, Web, Data</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca" alt="Design">
+          <h3>Design</h3>
+          <p>UI/UX, Graphic</p>
+        </article>
+
+        <article class="skill-card">
+          <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" alt="Marketing">
+          <h3>Marketing</h3>
+          <p>SEO, Social Media</p>
+        </article>
+      </div>
+
+    </div>
+
+    <!-- Right Image -->
+    <div class="job-image">
+      <img src="https://skilldb-ai-cms.s3.ap-south-1.amazonaws.com/Job_Tatkal_Signup_69ef7e7ad5.svg" alt="Job Search">
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
+
+<!-- Chatbox Button -->
+<div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+<!-- Chatbox -->
+<div class="chatbox" id="chatbox">
+  <div class="chat-header">
+    Career Chat Assistant
+    <span onclick="toggleChat()">✖</span>
+  </div>
+
+  <div class="chat-body" id="chatBody">
+    <div class="bot-msg">👋 Hi! Tell me your skills (coding, design, marketing)</div>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Type your skill...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
